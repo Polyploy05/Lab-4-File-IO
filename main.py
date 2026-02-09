@@ -24,3 +24,14 @@ def find_start(maze):
         return [r, c]
   return None
   
+def display_maze(maze, loc):
+    user_r, user_c = loc
+
+    for r in range(len(maze)):
+      row_str = ""
+      for c in range(len(maze[r])):
+        if r == user_r and c == user_c:
+          row_str += "X"
+        else:
+          row_str += maze[r][c]
+      print(row_str)
