@@ -1,7 +1,7 @@
-''' Name: Jacob Miranda
-### Date:
-### Group:
-### Description:  '''
+''' Name: Jacob Miranda & Daniel Puerto
+### Date: 02/11/26 
+### Group: 17
+### Description: Create a program that allows the user to solve a maze that is read in from a file.  The program should incorporate a loop that will continually ask the user to move in a direction until the user completes the maze.  '''
 
 import check_input
 import maze
